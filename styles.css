@@ -1,0 +1,62 @@
+.main-one {
+    background-color: #1F2937;
+    height: 300px;
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    padding: 20px;
+    
+}
+
+.HeaderLogo{
+    color: #F9FAF8;
+    font-family: "Hero Main text", sans-serif;
+    font-weight: bold;
+    padding-left: 30px;
+}
+
+div ul {
+    font-family: "Hero Main text", sans-serif;
+    color: #E5E7EB;
+    margin: 5px;
+    padding: 5px;
+    gap: 10px;
+    list-style: none;
+    display: flex;
+    font-size: 12px;
+}
+
+.subcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding-left: 50px;
+}
+
+.Main-text {
+    color: #F9FAF8;
+    padding: 0;
+    margin-bottom: 0;
+    font-family: "Hero Main text", sans-serif;
+}
+
+.subtext {
+    color: #E5E7EB;
+    font-family: "Hero Main text", sans-serif;
+}
+
+.sign-up {
+    font-weight: bold;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 4px;
+    width: 90px;
+    border: none;
+    padding: 5px;
+}
+
+
