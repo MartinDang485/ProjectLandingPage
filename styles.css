@@ -1,14 +1,25 @@
+body{ 
+    margin: 0;
+}
+
 .main-one {
+    display: flex;
     background-color: #1F2937;
-    height: 300px;
+    height: 375px;
+    margin-bottom: 20px;
+    
 }
 
 
-.container1 {
+.left {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: space-between;
     padding: 20px;
+    margin: 0;
+    width: 300px;
+    margin-left: 100px;
     
 }
 
@@ -16,37 +27,42 @@
     color: #F9FAF8;
     font-family: "Hero Main text", sans-serif;
     font-weight: bold;
-    padding-left: 30px;
+    padding-left: 12px;
+    font-size: 18px;
+    margin-bottom: 100px;
+    flex-grow: 1;
 }
 
 div ul {
     font-family: "Hero Main text", sans-serif;
+    font-weight: bold;
     color: #E5E7EB;
     margin: 5px;
     padding: 5px;
     gap: 10px;
     list-style: none;
     display: flex;
-    font-size: 12px;
+    font-size: 15px;
 }
 
-.subcontainer {
-    display: flex;
-    flex-direction: column;
-    width: 150px;
-    padding-left: 50px;
-}
+
 
 .Main-text {
     color: #F9FAF8;
     padding: 0;
     margin-bottom: 0;
     font-family: "Hero Main text", sans-serif;
+    width: 250px;
+    margin-left: 10px;
+    font-size: 36px;
 }
 
 .subtext {
     color: #E5E7EB;
     font-family: "Hero Main text", sans-serif;
+    width: 250px;
+    margin-left: 10px;
+    opacity: .9;
 }
 
 .sign-up {
@@ -57,6 +73,157 @@ div ul {
     width: 90px;
     border: none;
     padding: 5px;
+    margin-left: 10px;
 }
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+    flex: auto;
+    height: 300px;
+    width: 500px;
+    gap: 20px;
+    padding-right: 20px;
+}
+
+img {
+    width: 200px;
+    height: 180px;
+    padding: 0;
+    margin: 0;
+}
+
+.main-two {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    height: 300px;
+}
+
+.header-title-two {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Hero Main text", sans-serif;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.pic {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    align-items: center;
+}
+
+.button {
+    height: 100px;
+    width: 100px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.text-section-two {
+    font-size: 12px;
+    font-family: "Hero Main text", sans-serif;
+    opacity: .9;
+}
+
+.main-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.three-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 400px;
+}
+
+.quote {
+    font-size: 32px;
+    color: #1F2937;
+    font-family: sans-serif;
+    opacity: .9;
+}
+
+.Author {
+    font-weight: bold;
+    font-family: sans-serif;
+    opacity: .8;
+}
+
+.main-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-container {
+    display: flex;
+    width: 550px;
+    height: 80px;;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 8px;
+}
+
+.four-container-left {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.four-container-right {
+    display: flex;
+    align-items: center;
+}
+
+.call-to-action {
+    font-size: 15px;
+}
+
+.section-four-text {
+    font-size: 12px;
+}
+
+.call-to-action, .section-four-text {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.section-four-button {
+    color: white;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 
 
