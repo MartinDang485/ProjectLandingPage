@@ -11,6 +11,10 @@ app.get('/', (req, res) => {
     res.sendFile('/index.html', { root: __dirname});
 });
 
+app.get('/index', (req, res) => {
+    res.sendFile('/index.html', { root: __dirname});
+});
+
 app.get('/contact', (req, res) => {
     res.sendFile(__dirname + "/contact.html");
 });
